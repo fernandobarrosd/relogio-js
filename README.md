@@ -1,2 +1,2 @@
 # relogio-js
- Relógio usando JS
+ Relógio usando (HTML5, CSS3 e JS).
