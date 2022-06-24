@@ -14,25 +14,23 @@ body {
     background-color: rgb(58, 99, 112);
 }
 
-.relogio {
+.clock {
     display: flex;
     gap: 20px;
     flex-direction: column;
     background-color: rgb(79, 133, 151);
     padding: 30px;
     border-radius: 6px;
+    align-items: center;
 }
 
-.relogio-title {
-    text-align: center;
-}
 
-.relogio-body {
+.clock-body {
     display: flex;
     gap: 6px;
 }
 
-.relogio-body-item {
+.clock-body-item {
     background-color: black;
     width: 100px;
     height: 120px;
@@ -42,9 +40,8 @@ body {
     border-radius: 6px;
 }
 
-.relogio-body-item > span {
+.clock-number {
     color: white;
     font-weight: bold;
     font-size: 40px;
 }
-
