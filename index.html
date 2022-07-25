@@ -8,25 +8,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="clock">
-        <div class="clock-title">
-            <h1>Clock (JS)</h1>
-        </div>
-        <div class="clock-body">
-            <div class="clock-body-item">
-                <span id="clock-hours"
-                class="clock-number"></span>
+    <div id="app">
+        <div class="clock">
+            <div class="clock-title">
+                <h1>Clock (JS)</h1>
             </div>
-            <div class="clock-body-item">
-                <span id="clock-minutes"
-                class="clock-number"></span>
-            </div>
-            <div class="clock-body-item">
-                <span id="clock-seconds"
-                class="clock-number"></span>
+            <div class="clock-body">
+                <div class="clock-body-item">
+                    <span id="clock-hours"
+                    class="clock-number">{{hours}}</span>
+                </div>
+                <div class="clock-body-item">
+                    <span id="clock-minutes"
+                    class="clock-number">{{minutes}}</span>
+                </div>
+                <div class="clock-body-item">
+                    <span id="clock-seconds"
+                    class="clock-number">{{seconds}}</span>
+                </div>
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
+   
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
